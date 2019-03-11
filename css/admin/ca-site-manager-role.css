@@ -1,0 +1,29 @@
+/* Hide lots of things */
+
+/* Admin Menu - submenus */
+#adminmenu #menu-pages .wp-submenu,
+/* Profile - Hide headings and settings */
+#your-profile h2,
+#your-profile .user-comment-shortcuts-wrap,
+#your-profile .user-url-wrap,
+#your-profile .user-description-wrap,
+/* Pages - 'Add New' button */
+/*.post-type-page .page-title-action,*/
+/* Single Page - SLug */
+#edit-slug-box,
+/* Single Page - Custom fields */
+#postcustom,
+/* Single Page - Publishing Actions (preview) */
+#minor-publishing-actions,
+/* Single Page - Publishing actions (status, visibility, date) */
+#misc-publishing-actions,
+div.curtime
+{
+  display: none !important;
+}
+
+/* Users list table avatar */
+.wp-list-table.users .avatar {
+  margin: 0;
+  width: 0;
+}
