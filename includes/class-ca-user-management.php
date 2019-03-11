@@ -82,7 +82,7 @@ class CA_User_Management {
     $options = get_option( 'wmg-client-access' );
     $option = isset( $options['user-management_enabled'] ) ? $options['user-management_enabled'] : '';
     ?>
-    <label><input type='checkbox' name='client-access[user-management_enabled]' <?php checked( $option, 1 ); ?> value='1'>
+    <label><input type='checkbox' name='wmg-client-access[user-management_enabled]' <?php checked( $option, 1 ); ?> value='1'>
       Allow all Site Managers on this site to create, edit, and delete Subscriber users.
     </label>
     <?php

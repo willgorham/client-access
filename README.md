@@ -9,6 +9,6 @@ The plugin does the following things:
 - Adds the optional ability to allow 'Site Managers' to add and manage Subscriber users (and a settings page to enable/disable this feature).
 - Adds custom handling of other plugins, including Tablepress, AppPresser, and MonsterInsights.
 
-*Note:* ACF Pro was bundled with this plugin, but due to licensing cannot be added here. You can add the ACF plugin files under `/includes/acf/` to ge tthings working, or change the ACF path and directory using appropriate filters.
+*Note:* ACF Pro was bundled with this plugin, but due to licensing cannot be added here. You can add the ACF plugin files under `/includes/acf/` to get things working, or change the ACF path and directory using appropriate filters.
 
 *Note:* This plugin has not been made compatible with the Gutenberg editor and is recommended for use with the Classic Editor plugin.
