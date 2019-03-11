@@ -33,7 +33,7 @@ class CA_Settings {
   public static function initialize_settings() {
     register_setting(
       'client-access', // Option group ID.
-      'client-access' // Option name in the database.
+      'wmg-client-access' // Option name in the database.
     );
   }
 

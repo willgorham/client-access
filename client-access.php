@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) || exit;
 
 // Define CLIENT_ACCESS_PLUGIN_FILE.
 if ( ! defined( 'CLIENT_ACCESS_PLUGIN_FILE' ) ) {
-  define( 'CLIENT_ACC_PLUGIN_FILE', __FILE__ );
+  define( 'CLIENT_ACCESS_PLUGIN_FILE', __FILE__ );
 }
 
 // Include the main plugin class.

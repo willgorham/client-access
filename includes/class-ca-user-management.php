@@ -79,7 +79,7 @@ class CA_User_Management {
    *
    */
   public static function render_settings_field_user_management_enabled() {
-    $options = get_option( 'client-access' );
+    $options = get_option( 'wmg-client-access' );
     $option = isset( $options['user-management_enabled'] ) ? $options['user-management_enabled'] : '';
     ?>
     <label><input type='checkbox' name='client-access[user-management_enabled]' <?php checked( $option, 1 ); ?> value='1'>
@@ -94,7 +94,7 @@ class CA_User_Management {
    * @return boolean If user management is enabled.
    */
   public static function is_user_management_enabled() {
-    $options = get_option( 'client-access' );
+    $options = get_option( 'wmg-client-access' );
 
     return isset( $options['user-management_enabled'] ) && $options['user-management_enabled'];
   }
